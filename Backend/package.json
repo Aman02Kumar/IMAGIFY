@@ -5,7 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.8"
   },
   "author": "",
   "license": "ISC",
